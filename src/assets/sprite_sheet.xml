@@ -1,0 +1,32 @@
+<TextureAtlas imagePath="sprite_sheet.png">
+  <SubTexture x="0" y="0" width="54" height="54" name="explosion1_00000" frameLabel="explosion"/>
+  <SubTexture x="55" y="0" width="69" height="69" name="explosion1_00001"/>
+  <SubTexture x="125" y="0" width="87" height="87" name="explosion1_00002"/>
+  <SubTexture x="213" y="0" width="87" height="87" name="explosion1_00003"/>
+  <SubTexture x="301" y="0" width="69" height="69" name="explosion1_00004"/>
+  <SubTexture x="371" y="0" width="54" height="54" name="explosion1_00005"/>
+  <SubTexture x="426" y="0" width="36" height="46" name="drill_00000" frameLabel="drill"/>
+  <SubTexture x="463" y="0" width="36" height="46" name="drill_00001"/>
+  <SubTexture x="500" y="0" width="36" height="46" name="drill_00002"/>
+  <SubTexture x="537" y="0" width="30" height="500" name="baseDrill"/>
+  <SubTexture x="568" y="0" width="475" height="175" name="land"/>
+  <SubTexture x="1044" y="0" width="470" height="206" name="spaceship"/>
+  <SubTexture x="1515" y="0" width="12" height="19" name="charrun_00000"/>
+  <SubTexture x="1528" y="0" width="12" height="19" name="charrun_00001"/>
+  <SubTexture x="1541" y="0" width="12" height="19" name="charrun_00002"/>
+  <SubTexture x="1554" y="0" width="12" height="19" name="charrun_00003"/>
+  <SubTexture x="1567" y="0" width="17" height="33" name="charfly_00000"/>
+  <SubTexture x="1585" y="0" width="17" height="31" name="charfly_00001"/>
+  <SubTexture x="1603" y="0" width="225" height="230" name="gameretry_00000"/>
+  <SubTexture x="0" y="501" width="225" height="230" name="gameretry_00001"/>
+  <SubTexture x="226" y="501" width="225" height="230" name="gameexit_00000"/>
+  <SubTexture x="452" y="501" width="225" height="230" name="gameexit_00001"/>
+  <SubTexture x="678" y="501" width="460" height="230" name="gameovescreen_00000"/>
+  <SubTexture x="1139" y="501" width="460" height="230" name="gameovescreen_00001"/>
+  <SubTexture x="1600" y="501" width="22" height="22" name="shoot_00000"/>
+  <SubTexture x="1623" y="501" width="20" height="19" name="shoot_00001"/>
+  <SubTexture x="1644" y="501" width="60" height="60" name="explosion2_00000"/>
+  <SubTexture x="1705" y="501" width="61" height="61" name="explosion2_00001"/>
+  <SubTexture x="1767" y="501" width="60" height="61" name="explosion2_00002"/>
+  <SubTexture x="1828" y="501" width="60" height="60" name="explosion2_00003"/>
+</TextureAtlas>
