@@ -5,6 +5,7 @@ package engine.levels
 	import engine.huds.AnimatedTextField;
 	import engine.planets.Kamikase;
 	import engine.shoots.Fireworks;
+	import engine.shoots.GasBomb;
 	import engine.shoots.Rocket;
 	import engine.shoots.TripleFireworks;
 	import flash.display.Bitmap;
@@ -62,8 +63,8 @@ package engine.levels
 			this.level = Level1;
 			
 			// weapons, use percentage, ballancing
-			this.planetWeapons = [ Fireworks, TripleFireworks, Rocket ];
-			this.weaponsPercentage = [ 0.6, 0.1, 0.1 ];
+			this.planetWeapons = [ GasBomb ] //[ Fireworks, TripleFireworks, Rocket ];
+			this.weaponsPercentage = [ 1 ]; //[ 0.6, 0.1, 0.1 ];
 			this.turn = 180;
 			this.min_atk_turn = 1;
 			this.max_atk_turn = 2;

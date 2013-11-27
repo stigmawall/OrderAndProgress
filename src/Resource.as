@@ -118,6 +118,8 @@ package
 		
 		[Embed(source = "assets/gas_bomb.png")] public static const GAS_BOMB:Class;
 		
+		[Embed(source="assets/gas_falling_particle.pex", mimeType="application/octet-stream")] public static const GAS_FALLING_PARTICLE:Class;
+		
 		
 		
 		
