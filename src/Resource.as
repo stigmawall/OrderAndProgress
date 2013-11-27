@@ -102,16 +102,21 @@ package
 		[Embed(source = "assets/level1_torre.png")] public static const LEVEL1_TORRE:Class;
 		
 		
-		
-		
 		[Embed(source = "assets/rocket1.png")] public static const ROCKET1:Class;
 		[Embed(source = "assets/rocket2.png")] public static const ROCKET2:Class;
 		
 		
-		
-		
 		/************************************** HUD ASSETS ********************************************/
 		
+		[Embed(source = "assets/skip_button.png")] public static const SKIP_BUTTON:Class;
+		
+		[Embed(source = "assets/play_button.png")] public static const PAUSE_BUTTON:Class;
+		
+		[Embed(source = "assets/pause_button.png")] public static const PLAY_BUTTON:Class;
+		
+		
+		
+		[Embed(source = "assets/gas_bomb.png")] public static const GAS_BOMB:Class;
 		
 		
 		

@@ -51,7 +51,7 @@ package
 			this.switchState( Level1 ); // IntroFireHurricane // MainMenu
 			_INSTANCE = this;
 			
-			Console.init(false);
+			//Console.init(false);
 			stage.addEventListener( "deactivate", deactivate,false,0,true);
 			//NativeApplication.nativeApplication.addEventListener(KeyboardEvent.KEY_DOWN, deactivate);
 		}
@@ -103,7 +103,6 @@ package
 			//_starling.simulateMultitouch = true;
 			_starling.stage.addEventListener(ResizeEvent.RESIZE, onResized);
 			//stage.addEventListener(ResizeEvent.RESIZE, resizeStage);
-			
 			
 			
 			//_starling.showStats = true;

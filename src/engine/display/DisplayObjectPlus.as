@@ -23,7 +23,10 @@ package engine.display
 		
 		public function update():void { }
 		
-		public function explode():void { }
+		public function explode():void 
+		{ 
+			
+		}
 		
 		public function get finished():Boolean { return _finished; }
 		

@@ -15,10 +15,11 @@ package engine.huds
 		private var _life:Image;
 		
 		
+		
+		
 		public function SpaceshipStatus() 
 		{
 			// getting player data 
-			// ...
 			
 			addEventListener(Event.ADDED_TO_STAGE, init);
 		}

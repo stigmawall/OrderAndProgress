@@ -271,8 +271,8 @@ package engine.gamestates
 			
 			
 			// pause/play menu
-			this._pauseButton = new Image( Texture.fromColor( 100, 40, 0xffff0000 ) );
-			this._playButton = new Image( Texture.fromColor( 100, 40, 0xff00ff00 ) );
+			this._pauseButton = new Image( Texture.fromBitmap( new Resource.PAUSE_BUTTON ) );
+			this._playButton = new Image( Texture.fromBitmap( new Resource.PLAY_BUTTON ) );
 			this._playButton.visible = false;
 			this._playButton.x = this._pauseButton.x = stage.stageWidth - this._pauseButton.width - 18;
 			this._playButton.y = this._pauseButton.y = 20;
@@ -283,15 +283,15 @@ package engine.gamestates
 			
 			
 			// skip button
-			this._skipButton = new Image( Texture.fromColor( 100, 40, 0xff00ff00 ) );
+			this._skipButton = new Image( Texture.fromBitmap( new Resource.SKIP_BUTTON ) );
 			this._skipButton.x = (stage.stageWidth / 2) - ( this._skipButton.width / 2 );
 			this._skipButton.y = 20;
 			this.addChild( this._skipButton );
 			
 			
 			// Listeners 
-			this.addEventListener(Event.ENTER_FRAME, update);
-			this.stage.addEventListener(TouchEvent.TOUCH, onTouchScreen );
+			this.addEventListener( Event.ENTER_FRAME, update);
+			this.stage.addEventListener( TouchEvent.TOUCH, onTouchScreen );
 			
 			
 			// Event control
